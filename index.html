@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spinner</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- nav  -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/includes/theme-options/images/logo/header1-logo.svg"
+                        alt="spinner" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><a href="#">Menu</a><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown_1">
+                            <a href="#" class="home nav-link">Home <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown_menu home_dropdown" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Home 2 </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Home 3</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Home 4</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Home 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown_1">
+                            <a href="#" class="home nav-link">Pages <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown_menu home_dropdown" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Team</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Job List</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Job Details</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Faq</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown_1">
+                            <a href="#" class="home nav-link">Services <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown_menu home_dropdown" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Services Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown_1">
+                            <a href="#" class="home nav-link">Projects <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown_menu home_dropdown" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Projects</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Projects Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown_1">
+                            <a href="#" class="home nav-link">Blog <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown_menu home_dropdown" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Blog Standard</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown_1">
+                            <a class="nav-link home" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <li class="nav-item dropdown_1">
+                            <a class=" home" href="#" tabindex="-1" aria-disabled="true"><i
+                                    class="fa-solid fa-magnifying-glass search_icon"></i> </a>
+                        </li>
+                        <li class="nav-item dropdown_1">
+                            <a class=" home" href="#" tabindex="-1" aria-disabled="true"><i
+                                    class="fa-solid fa-bars list_icon"></i></a>
+                        </li>
+                        <button class="btn btn-outline-success" type="submit">Let's Talk</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+
+    <!-- header-sub -->
+    <div class="inner-banner"
+        style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/includes/theme-options/images/breadcrumb/breadcrumb.png);">
+        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/bg/inner-bannerdot.png"
+            class="inner-bannerdot" alt="image">
+        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/bg/inner-bannerwave.png"
+            class="inner-bannerwave" alt="image">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-12">
+                    <h2 class="inner-banner-title wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+                        Blog </h2>
+                    <ul id="breadcrumb" class="breadcrumb gap-3">
+                        <li class="breadcrumb-item"><a href="https://www.spinner-wp.egenslab.com"> Home </a></li>
+                        <li class="breadcrumb-item active">Blog Standard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-standard pt-120 pb-120" id="blog-standard">
+        <div class="container">
+            <div class="row gy-5 ">
+                <div class="col-lg-8">
+                    <div class="blog-standard-area">
+                        <article id="post-1453"
+                            class="post-1453 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-inspiration category-web-development tag-advertising tag-agency tag-business">
+                            <div class="blog-standard-single">
+                                <h3 class="title"><a
+                                        href="https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/">What
+                                        Is User Experience (UX) Design? Everything You Need.</a></h3>
+                                <ul class="meta ms-0 ps-0">
+                                    <li class="author">
+                                        <div class="author-img">
+                                            <img alt=''
+                                                src='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=25&#038;d=mm&#038;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=50&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-25 photo' height='25' width='25'
+                                                decoding='async' />
+                                        </div>
+                                        <a href="https://www.spinner-wp.egenslab.com/author/shafiqul/">
+                                            <span>Egens Lab</span>
+                                        </a>
+                                    </li>
+                                    <li class="date">
+                                        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-stand-calndr.svg"
+                                            alt="calender-icons">
+                                        <a href="https://www.spinner-wp.egenslab.com/2022/08/19"><time
+                                                datetime="2022-08-19 08:45:46"><span>August 19,
+                                                    2022</span></time></a>
+                                    </li>
+                                </ul>
+                                <div class="image">
+                                    <a
+                                        href="https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/">
+                                        <img width="880" height="550"
+                                            src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15.png"
+                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                            decoding="async" fetchpriority="high"
+                                            srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15.png 880w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15-300x188.png 300w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15-768x480.png 768w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15-370x231.png 370w"
+                                            sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                </div>
+                                <div class="content">
+                                    <p class="para">
+                                        The UX design process consists user research, wireframing and prototyping,
+                                        and user testing. Lets imagine an e-commerce startup well call it Beautify.
+                                        [...] </p>
+                                </div>
+                                <div class="bottom-area">
+                                    <div class="blog-btn">
+                                        <a
+                                            href="https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/">Read
+                                            More</a>
+                                    </div>
+                                    <div class="blog-share">
+                                        <div class="front">
+                                            <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-share-icon.svg"
+                                                alt="image"><span>SHARE</span>
+                                        </div>
+                                        <div class="back">
+                                            <ul class="share-list d-flex flex-row align-items-start gap-3">
+                                                <li><a
+                                                        href="http://www.facebook.com/sharer/sharer.php?u=https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/"><i
+                                                            class="bx bxl-facebook"></i></a></li>
+                                                <li><a
+                                                        href="http://www.twitter.com/share?url=https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/"><i
+                                                            class="bx bxl-twitter"></i></a></li>
+                                                <li><a
+                                                        href="http://www.instagram.com/share?url=https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/"><i
+                                                            class="bx bxl-instagram"></i></a></li>
+                                                <li><a
+                                                        href="https://pinterest.com/pin/create/button/?url=https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/"><i
+                                                            class="bx bxl-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="post-1451"
+                            class="post-1451 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-graphics-design category-one-page-template tag-agency-branding tag-branding tag-inspiration">
+                            <div class="blog-standard-single">
+                                <h3 class="title"><a
+                                        href="https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/">What
+                                        Is SEO Copywriting? A Complete Guide</a></h3>
+                                <ul class="meta ms-0 ps-0">
+                                    <li class="author">
+                                        <div class="author-img">
+                                            <img alt=''
+                                                src='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=25&#038;d=mm&#038;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=50&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-25 photo' height='25' width='25'
+                                                decoding='async' />
+                                        </div>
+                                        <a href="https://www.spinner-wp.egenslab.com/author/shafiqul/">
+                                            <span>Egens Lab</span>
+                                        </a>
+                                    </li>
+                                    <li class="date">
+                                        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-stand-calndr.svg"
+                                            alt="calender-icons">
+                                        <a href="https://www.spinner-wp.egenslab.com/2022/08/19"><time
+                                                datetime="2022-08-19 08:08:33"><span>August 19,
+                                                    2022</span></time></a>
+                                    </li>
+                                </ul>
+                                <div class="image">
+                                    <a
+                                        href="https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/">
+                                        <img width="880" height="550"
+                                            src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10.png"
+                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                            decoding="async" loading="lazy"
+                                            srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10.png 880w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10-300x188.png 300w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10-768x480.png 768w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10-370x231.png 370w"
+                                            sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                </div>
+                                <div class="content">
+                                    <p class="para">
+                                        The UX design process consists user research, wireframing and prototyping,
+                                        and user testing. Let?s imagine an e-commerce startup we?ll call it Beautif
+                                        [...] </p>
+                                </div>
+                                <div class="bottom-area">
+                                    <div class="blog-btn">
+                                        <a
+                                            href="https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/">Read
+                                            More</a>
+                                    </div>
+                                    <div class="blog-share">
+                                        <div class="front">
+                                            <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-share-icon.svg"
+                                                alt="image"><span>SHARE</span>
+                                        </div>
+                                        <div class="back">
+                                            <ul class="share-list d-flex flex-row align-items-start gap-3">
+                                                <li><a
+                                                        href="http://www.facebook.com/sharer/sharer.php?u=https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/"><i
+                                                            class="bx bxl-facebook"></i></a></li>
+                                                <li><a
+                                                        href="http://www.twitter.com/share?url=https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/"><i
+                                                            class="bx bxl-twitter"></i></a></li>
+                                                <li><a
+                                                        href="http://www.instagram.com/share?url=https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/"><i
+                                                            class="bx bxl-instagram"></i></a></li>
+                                                <li><a
+                                                        href="https://pinterest.com/pin/create/button/?url=https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/"><i
+                                                            class="bx bxl-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="post-1446"
+                            class="post-1446 post type-post status-publish format-standard has-post-thumbnail hentry category-creative-agency category-inspiration category-web-development tag-advertising tag-ui-ux tag-website-ui">
+                            <div class="blog-standard-single">
+                                <h3 class="title"><a
+                                        href="https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/">How
+                                        to Create a Useful &#038; Excellent Optimized Section</a></h3>
+                                <ul class="meta ms-0 ps-0">
+                                    <li class="author">
+                                        <div class="author-img">
+                                            <img alt=''
+                                                src='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=25&#038;d=mm&#038;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=50&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-25 photo' height='25' width='25' loading='lazy'
+                                                decoding='async' />
+                                        </div>
+                                        <a href="https://www.spinner-wp.egenslab.com/author/shafiqul/">
+                                            <span>Egens Lab</span>
+                                        </a>
+                                    </li>
+                                    <li class="date">
+                                        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-stand-calndr.svg"
+                                            alt="calender-icons">
+                                        <a href="https://www.spinner-wp.egenslab.com/2022/08/19"><time
+                                                datetime="2022-08-19 06:46:24"><span>August 19,
+                                                    2022</span></time></a>
+                                    </li>
+                                </ul>
+                                <div class="image">
+                                    <a
+                                        href="https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/">
+                                        <img width="880" height="550"
+                                            src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8.png"
+                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                            decoding="async" loading="lazy"
+                                            srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8.png 880w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8-300x188.png 300w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8-768x480.png 768w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8-370x231.png 370w"
+                                            sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                </div>
+                                <div class="content">
+                                    <p class="para">
+                                        The UX design process consists user research, wireframing and prototyping,
+                                        and user testing. Let?s imagine an e-commerce startup we?ll call it Beautif
+                                        [...] </p>
+                                </div>
+                                <div class="bottom-area">
+                                    <div class="blog-btn">
+                                        <a
+                                            href="https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/">Read
+                                            More</a>
+                                    </div>
+                                    <div class="blog-share">
+                                        <div class="front">
+                                            <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-share-icon.svg"
+                                                alt="image"><span>SHARE</span>
+                                        </div>
+                                        <div class="back">
+                                            <ul class="share-list d-flex flex-row align-items-start gap-3">
+                                                <li><a
+                                                        href="http://www.facebook.com/sharer/sharer.php?u=https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/"><i
+                                                            class="bx bxl-facebook"></i></a></li>
+                                                <li><a
+                                                        href="http://www.twitter.com/share?url=https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/"><i
+                                                            class="bx bxl-twitter"></i></a></li>
+                                                <li><a
+                                                        href="http://www.instagram.com/share?url=https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/"><i
+                                                            class="bx bxl-instagram"></i></a></li>
+                                                <li><a
+                                                        href="https://pinterest.com/pin/create/button/?url=https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/"><i
+                                                            class="bx bxl-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="post-1442"
+                            class="post-1442 post type-post status-publish format-standard has-post-thumbnail hentry category-creative-agency category-one-page-template category-ui-ux-design tag-advertising tag-agency-branding tag-ui-ux">
+                            <div class="blog-standard-single">
+                                <h3 class="title"><a
+                                        href="https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/">Are
+                                        You Too Old for a Career in Web Development?</a></h3>
+                                <ul class="meta ms-0 ps-0">
+                                    <li class="author">
+                                        <div class="author-img">
+                                            <img alt=''
+                                                src='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=25&#038;d=mm&#038;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=50&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-25 photo' height='25' width='25' loading='lazy'
+                                                decoding='async' />
+                                        </div>
+                                        <a href="https://www.spinner-wp.egenslab.com/author/shafiqul/">
+                                            <span>Egens Lab</span>
+                                        </a>
+                                    </li>
+                                    <li class="date">
+                                        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-stand-calndr.svg"
+                                            alt="calender-icons">
+                                        <a href="https://www.spinner-wp.egenslab.com/2022/08/19"><time
+                                                datetime="2022-08-19 06:44:23"><span>August 19,
+                                                    2022</span></time></a>
+                                    </li>
+                                </ul>
+                                <div class="image">
+                                    <a
+                                        href="https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/">
+                                        <img width="880" height="550"
+                                            src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13.png"
+                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                            decoding="async" loading="lazy"
+                                            srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13.png 880w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13-300x188.png 300w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13-768x480.png 768w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13-370x231.png 370w"
+                                            sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                </div>
+                                <div class="content">
+                                    <p class="para">
+                                        The UX design process consists user research, wireframing and prototyping,
+                                        and user testing. Let?s imagine an e-commerce startup we?ll call it Beautif
+                                        [...] </p>
+                                </div>
+                                <div class="bottom-area">
+                                    <div class="blog-btn">
+                                        <a
+                                            href="https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/">Read
+                                            More</a>
+                                    </div>
+                                    <div class="blog-share">
+                                        <div class="front">
+                                            <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-share-icon.svg"
+                                                alt="image"><span>SHARE</span>
+                                        </div>
+                                        <div class="back">
+                                            <ul class="share-list d-flex flex-row align-items-start gap-3">
+                                                <li><a
+                                                        href="http://www.facebook.com/sharer/sharer.php?u=https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/"><i
+                                                            class="bx bxl-facebook"></i></a></li>
+                                                <li><a
+                                                        href="http://www.twitter.com/share?url=https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/"><i
+                                                            class="bx bxl-twitter"></i></a></li>
+                                                <li><a
+                                                        href="http://www.instagram.com/share?url=https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/"><i
+                                                            class="bx bxl-instagram"></i></a></li>
+                                                <li><a
+                                                        href="https://pinterest.com/pin/create/button/?url=https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/"><i
+                                                            class="bx bxl-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="post-1439"
+                            class="post-1439 post type-post status-publish format-standard has-post-thumbnail hentry category-branding category-business category-inspiration category-one-page-template tag-agency tag-branding tag-website-ui">
+                            <div class="blog-standard-single">
+                                <h3 class="title"><a
+                                        href="https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/">What
+                                        is the Rule of Thirds in Design? A Complete Guide</a></h3>
+                                <ul class="meta ms-0 ps-0">
+                                    <li class="author">
+                                        <div class="author-img">
+                                            <img alt=''
+                                                src='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=25&#038;d=mm&#038;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=50&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-25 photo' height='25' width='25' loading='lazy'
+                                                decoding='async' />
+                                        </div>
+                                        <a href="https://www.spinner-wp.egenslab.com/author/shafiqul/">
+                                            <span>Egens Lab</span>
+                                        </a>
+                                    </li>
+                                    <li class="date">
+                                        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-stand-calndr.svg"
+                                            alt="calender-icons">
+                                        <a href="https://www.spinner-wp.egenslab.com/2022/08/19"><time
+                                                datetime="2022-08-19 06:41:48"><span>August 19,
+                                                    2022</span></time></a>
+                                    </li>
+                                </ul>
+                                <div class="image">
+                                    <a
+                                        href="https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/">
+                                        <img width="880" height="550"
+                                            src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12.png"
+                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                            decoding="async" loading="lazy"
+                                            srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12.png 880w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12-300x188.png 300w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12-768x480.png 768w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12-370x231.png 370w"
+                                            sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                </div>
+                                <div class="content">
+                                    <p class="para">
+                                        The UX design process consists user research, wireframing and prototyping,
+                                        and user testing. Let?s imagine an e-commerce startup we?ll call it Beautif
+                                        [...] </p>
+                                </div>
+                                <div class="bottom-area">
+                                    <div class="blog-btn">
+                                        <a
+                                            href="https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/">Read
+                                            More</a>
+                                    </div>
+                                    <div class="blog-share">
+                                        <div class="front">
+                                            <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-share-icon.svg"
+                                                alt="image"><span>SHARE</span>
+                                        </div>
+                                        <div class="back">
+                                            <ul class="share-list d-flex flex-row align-items-start gap-3">
+                                                <li><a
+                                                        href="http://www.facebook.com/sharer/sharer.php?u=https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/"><i
+                                                            class="bx bxl-facebook"></i></a></li>
+                                                <li><a
+                                                        href="http://www.twitter.com/share?url=https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/"><i
+                                                            class="bx bxl-twitter"></i></a></li>
+                                                <li><a
+                                                        href="http://www.instagram.com/share?url=https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/"><i
+                                                            class="bx bxl-instagram"></i></a></li>
+                                                <li><a
+                                                        href="https://pinterest.com/pin/create/button/?url=https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/"><i
+                                                            class="bx bxl-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="post-1432"
+                            class="post-1432 post type-post status-publish format-standard has-post-thumbnail hentry category-branding category-one-page-template category-ui-ux-design tag-agency tag-ui-ux tag-website-ui">
+                            <div class="blog-standard-single">
+                                <h3 class="title"><a
+                                        href="https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/">A
+                                        lifestyle you always being the focal point is innately.</a></h3>
+                                <ul class="meta ms-0 ps-0">
+                                    <li class="author">
+                                        <div class="author-img">
+                                            <img alt=''
+                                                src='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=25&#038;d=mm&#038;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/2ac0b89ced4ce2e492cab4aaf8529ac5?s=50&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-25 photo' height='25' width='25' loading='lazy'
+                                                decoding='async' />
+                                        </div>
+                                        <a href="https://www.spinner-wp.egenslab.com/author/shafiqul/">
+                                            <span>Egens Lab</span>
+                                        </a>
+                                    </li>
+                                    <li class="date">
+                                        <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-stand-calndr.svg"
+                                            alt="calender-icons">
+                                        <a href="https://www.spinner-wp.egenslab.com/2022/08/19"><time
+                                                datetime="2022-08-19 06:35:29"><span>August 19,
+                                                    2022</span></time></a>
+                                    </li>
+                                </ul>
+                                <div class="image">
+                                    <a
+                                        href="https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/">
+                                        <img width="880" height="550"
+                                            src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-11.png"
+                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                            decoding="async" loading="lazy"
+                                            srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-11.png 880w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-11-300x188.png 300w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-11-768x480.png 768w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-11-370x231.png 370w"
+                                            sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                </div>
+                                <div class="content">
+                                    <p class="para">
+                                        The UX design process consists user research, wireframing and prototyping,
+                                        and user testing. Let?s imagine an e-commerce startup we?ll call it Beautif
+                                        [...] </p>
+                                </div>
+                                <div class="bottom-area">
+                                    <div class="blog-btn">
+                                        <a
+                                            href="https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/">Read
+                                            More</a>
+                                    </div>
+                                    <div class="blog-share">
+                                        <div class="front">
+                                            <img src="https://www.spinner-wp.egenslab.com/wp-content/themes/spinner/assets/images/icons/blog-share-icon.svg"
+                                                alt="image"><span>SHARE</span>
+                                        </div>
+                                        <div class="back">
+                                            <ul class="share-list d-flex flex-row align-items-start gap-3">
+                                                <li><a
+                                                        href="http://www.facebook.com/sharer/sharer.php?u=https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/"><i
+                                                            class="bx bxl-facebook"></i></a></li>
+                                                <li><a
+                                                        href="http://www.twitter.com/share?url=https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/"><i
+                                                            class="bx bxl-twitter"></i></a></li>
+                                                <li><a
+                                                        href="http://www.instagram.com/share?url=https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/"><i
+                                                            class="bx bxl-instagram"></i></a></li>
+                                                <li><a
+                                                        href="https://pinterest.com/pin/create/button/?url=https://www.spinner-wp.egenslab.com/a-lifestyle-you-always-being-the-focal-point-is-innately/"><i
+                                                            class="bx bxl-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                    <div class="row">
+                        <nav class="pagination-wrap">
+                            <nav aria-label="Page navigation">
+                                <ul class='pagination d-flex justify-content-center gap-md-3 gap-2'>
+                                    <li class='active'><a aria-current="page" class="page-link current">1</a></li>
+                                    <li><a class="page-link"
+                                            href="">2</a>
+                                    </li>
+                                    <li><a class="next page-link"
+                                            href=""> </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-4 or2">
+                    <div class="widget-area">
+                        <div id="block-24" class="blog-widget-item widget_block widget_search">
+                            <form role="search" method="get" action="https://www.spinner-wp.egenslab.com/"
+                                class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
+                                <label class="wp-block-search__label" for="wp-block-search__input-1">Search</label>
+                                <div class="wp-block-search__inside-wrapper "><input class="wp-block-search__input"
+                                        id="wp-block-search__input-1" placeholder="Search Here" value="" type="search"
+                                        name="s" required /><button aria-label="Search"
+                                        class="wp-block-search__button wp-element-button" type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="block-32" class="blog-widget-item widget_block">
+                            <div class="wp-block-group">
+                                <div
+                                    class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+                                    <h3 class="wp-block-heading">Recent Posts</h3>
+
+
+                                    <ul class="wp-block-latest-posts__list has-dates has-author wp-block-latest-posts">
+                                        <li>
+                                            <div class="wp-block-latest-posts__featured-image alignleft"><img
+                                                    loading="lazy" decoding="async" width="150" height="150"
+                                                    src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15-150x150.png"
+                                                    class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+                                                    style="max-width:75px;max-height:75px;"
+                                                    srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15-150x150.png 150w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-15-420x420.png 420w"
+                                                    sizes="(max-width: 150px) 100vw, 150px" /></div><a
+                                                class="wp-block-latest-posts__post-title"
+                                                href="https://www.spinner-wp.egenslab.com/what-is-user-experience-ux-design-everything-you-need/">What
+                                                Is User Experience (UX) Design? Everything You Need.</a>
+                                            <div class="wp-block-latest-posts__post-author">by Egens Lab</div><time
+                                                datetime="2022-08-19T08:45:46+00:00"
+                                                class="wp-block-latest-posts__post-date">August 19, 2022</time>
+                                        </li>
+                                        <li>
+                                            <div class="wp-block-latest-posts__featured-image alignleft"><img
+                                                    loading="lazy" decoding="async" width="150" height="150"
+                                                    src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10-150x150.png"
+                                                    class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+                                                    style="max-width:75px;max-height:75px;"
+                                                    srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10-150x150.png 150w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-10-420x420.png 420w"
+                                                    sizes="(max-width: 150px) 100vw, 150px" /></div><a
+                                                class="wp-block-latest-posts__post-title"
+                                                href="https://www.spinner-wp.egenslab.com/what-is-seo-copywriting-a-complete-guide/">What
+                                                Is SEO Copywriting? A Complete Guide</a>
+                                            <div class="wp-block-latest-posts__post-author">by Egens Lab</div><time
+                                                datetime="2022-08-19T08:08:33+00:00"
+                                                class="wp-block-latest-posts__post-date">August 19, 2022</time>
+                                        </li>
+                                        <li>
+                                            <div class="wp-block-latest-posts__featured-image alignleft"><img
+                                                    loading="lazy" decoding="async" width="150" height="150"
+                                                    src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8-150x150.png"
+                                                    class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+                                                    style="max-width:75px;max-height:75px;"
+                                                    srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8-150x150.png 150w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-8-420x420.png 420w"
+                                                    sizes="(max-width: 150px) 100vw, 150px" /></div><a
+                                                class="wp-block-latest-posts__post-title"
+                                                href="https://www.spinner-wp.egenslab.com/how-to-create-a-useful-excellent-optimized-section-2/">How
+                                                to Create a Useful &#038; Excellent Optimized Section</a>
+                                            <div class="wp-block-latest-posts__post-author">by Egens Lab</div><time
+                                                datetime="2022-08-19T06:46:24+00:00"
+                                                class="wp-block-latest-posts__post-date">August 19, 2022</time>
+                                        </li>
+                                        <li>
+                                            <div class="wp-block-latest-posts__featured-image alignleft"><img
+                                                    loading="lazy" decoding="async" width="150" height="150"
+                                                    src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13-150x150.png"
+                                                    class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+                                                    style="max-width:75px;max-height:75px;"
+                                                    srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13-150x150.png 150w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-13-420x420.png 420w"
+                                                    sizes="(max-width: 150px) 100vw, 150px" /></div><a
+                                                class="wp-block-latest-posts__post-title"
+                                                href="https://www.spinner-wp.egenslab.com/are-you-too-old-for-a-career-in-web-development/">Are
+                                                You Too Old for a Career in Web Development?</a>
+                                            <div class="wp-block-latest-posts__post-author">by Egens Lab</div><time
+                                                datetime="2022-08-19T06:44:23+00:00"
+                                                class="wp-block-latest-posts__post-date">August 19, 2022</time>
+                                        </li>
+                                        <li>
+                                            <div class="wp-block-latest-posts__featured-image alignleft"><img
+                                                    loading="lazy" decoding="async" width="150" height="150"
+                                                    src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12-150x150.png"
+                                                    class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+                                                    style="max-width:75px;max-height:75px;"
+                                                    srcset="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12-150x150.png 150w, https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/Blog-Standard-Image-12-420x420.png 420w"
+                                                    sizes="(max-width: 150px) 100vw, 150px" /></div><a
+                                                class="wp-block-latest-posts__post-title"
+                                                href="https://www.spinner-wp.egenslab.com/what-is-the-rule-of-thirds-in-design-a-complete-guide/">What
+                                                is the Rule of Thirds in Design? A Complete Guide</a>
+                                            <div class="wp-block-latest-posts__post-author">by Egens Lab</div><time
+                                                datetime="2022-08-19T06:41:48+00:00"
+                                                class="wp-block-latest-posts__post-date">August 19, 2022</time>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="block-25" class="blog-widget-item widget_block">
+                            <div class="wp-block-group">
+                                <div
+                                    class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+                                    <h3 class="wp-block-heading">Post Categories</h3>
+
+
+                                    <ul class="wp-block-categories-list wp-block-categories">
+                                        <li class="cat-item cat-item-21"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/branding/">Branding</a>
+                                        </li>
+                                        <li class="cat-item cat-item-25"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/business/">Business</a>
+                                        </li>
+                                        <li class="cat-item cat-item-22"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/creative-agency/">Creative
+                                                Agency</a>
+                                        </li>
+                                        <li class="cat-item cat-item-7"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/graphics-design/">Graphics
+                                                Design</a>
+                                        </li>
+                                        <li class="cat-item cat-item-24"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/inspiration/">Inspiration</a>
+                                        </li>
+                                        <li class="cat-item cat-item-23"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/one-page-template/">One
+                                                Page Template</a>
+                                        </li>
+                                        <li class="cat-item cat-item-9"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/ui-ux-design/">Ui/Ux
+                                                Design</a>
+                                        </li>
+                                        <li class="cat-item cat-item-8"><a
+                                                href="https://www.spinner-wp.egenslab.com/category/web-development/">Web
+                                                Development</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="block-26" class="blog-widget-item widget_block">
+                            <div class="wp-block-group">
+                                <div
+                                    class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+                                    <h3 class="wp-block-heading">Tags</h3>
+
+
+                                    <p class="wp-block-tag-cloud"><a
+                                            href="https://www.spinner-wp.egenslab.com/tag/advertising/"
+                                            class="tag-cloud-link tag-link-26 tag-link-position-1"
+                                            style="font-size: 8pt;" aria-label="Advertising (3 items)">Advertising</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/agency/"
+                                            class="tag-cloud-link tag-link-28 tag-link-position-2"
+                                            style="font-size: 8pt;" aria-label="Agency (3 items)">Agency</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/agency-branding/"
+                                            class="tag-cloud-link tag-link-31 tag-link-position-3"
+                                            style="font-size: 8pt;" aria-label="Agency Branding (3 items)">Agency
+                                            Branding</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/branding/"
+                                            class="tag-cloud-link tag-link-30 tag-link-position-4"
+                                            style="font-size: 8pt;" aria-label="Branding (3 items)">Branding</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/business/"
+                                            class="tag-cloud-link tag-link-33 tag-link-position-5"
+                                            style="font-size: 8pt;" aria-label="Business (3 items)">Business</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/inspiration/"
+                                            class="tag-cloud-link tag-link-32 tag-link-position-6"
+                                            style="font-size: 8pt;" aria-label="Inspiration (3 items)">Inspiration</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/ui-ux/"
+                                            class="tag-cloud-link tag-link-29 tag-link-position-7"
+                                            style="font-size: 8pt;" aria-label="Ui/Ux (3 items)">Ui/Ux</a>
+                                        <a href="https://www.spinner-wp.egenslab.com/tag/website-ui/"
+                                            class="tag-cloud-link tag-link-27 tag-link-position-8"
+                                            style="font-size: 8pt;" aria-label="Website UI (3 items)">Website UI</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        <div class="footer_top pt-80 pb-80">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-md-6 col-lg-3 col-xl-3">
+                        <div class="footer_item">
+                            <img src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/footer1-logo.svg"
+                                alt="footer_img">
+                        </div>
+                        <div class="footer_item">
+                            <p>Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore.</p>
+                        </div>
+                        <div class="footer_item">
+                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-778" method="post" data-id="778"
+                                data-name="Footer one form">
+                                <div class="mc4wp-form-fields">
+                                    <div class="footer-top">
+                                        <div class="footer-mail-item">
+                                            <div class="input-with-btn d-flex jusify-content-start align-items-strech">
+                                                <input type="email" name="EMAIL" placeholder="Enter your email">
+                                                <button type="submit">
+                                                    <img decoding="async"
+                                                        src="https://www.spinner-wp.egenslab.com/wp-content/uploads/2022/08/send-icon.svg">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><label style="display: none !important;">Leave this field empty if you're
+                                    human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
+                                        autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp"
+                                    value="1717742332"><input type="hidden" name="_mc4wp_form_id" value="778"><input
+                                    type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                                <div class="mc4wp-response"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-xl-3">
+                        <div class="footer_item">
+                            <h5>Our Services</h5>
+                            <div class="menu_services">
+                                <div class="menu_item">
+                                    <ul class="menu">
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Content Writing</a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Consultancy Services </a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Digital Marketing</a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Graphics Design </a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">SEO Optimization </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-xl-3">
+                        <div class="footer_item">
+                            <h5>Company</h5>
+                            <div class="menu_services">
+                                <div class="menu_item">
+                                    <ul class="menu">
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">About Us</a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Services </a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Project</a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Blog Standard </a></li>
+                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                            </svg><a href="#">Blog Grid </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-xl-3">
+                        <div class="footer_item">
+                            <h5>Contact Us</h5>
+                            <div class="menu_services">
+                                <div class="contact_item">
+                                    <ul class="contact">
+                                        <li>
+                                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                    height="16" fill="currentColor" class="bi bi-geo-alt"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                                    <path
+                                                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                                </svg></div>
+                                            <a href="#">4517 Washington Ave. Manchester, Kentucky 39495</a>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                    height="16" fill="currentColor" class="bi bi-telephone"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                                </svg></div>
+                                            <a href="#">+8801761456456</a>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                    height="16" fill="currentColor" class="bi bi-chat-left-text-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z" />
+                                                </svg></div>
+                                            <a href="#">info@example.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row d-flex align-items-center g-3 ">
+                    <div
+                        class="col-lg-6 d-flex justify-content-lg-start justify-content-center justify-content-lg-start">
+                        <p>Copyright 2024 <a href="#">Spinner</a> | Design By <a href="#">DineshArjunan</a></p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center justify-content-lg-start">
+                        <ul class="f-bottom-list d-flex jusify-content-start align-items-center">
+                            <li><a href="#" class="a1">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script src="./asset/js/bootstrap.min.js"></script>
+<script src="./asset/js/jquery.min.js"></script>
